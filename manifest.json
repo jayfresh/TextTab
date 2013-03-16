@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "TextTab",
+  "description": "Take notes in your browser",
+  "version": "0.1",
+
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+  	"scripts": ["background.js"],
+  	"persistent": false
+  },
+  "chrome_url_overrides": {
+  	"newtab": "newtab.html"
+  }
+}
